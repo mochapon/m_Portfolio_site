@@ -38,7 +38,8 @@ header {
 
 .info p {
   margin: 0;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
+  font-size: 12px;
 }
 
 .info ul {
@@ -59,22 +60,24 @@ header {
 
 /* index.html */
 .works{
-  width: 500px;
+  width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .works > h1 {
   font-weight: normal;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .works section h1 {
-  font-weight: normal;
+  /* font-weight: normal; */
+  margin: 0;
   padding-left: 10px;
+  font-size: 16px;
 }
 
 .works section ul {
@@ -84,8 +87,18 @@ header {
 }
 
 .works p {
-  line-height: 1.8;
-  padding-left: 20px;
+  margin: 0;
+  padding-left:20px;
+  font-size: 12px;
+}
+
+.app img {
+  width: 80px;
+  height: 80px;
+}
+
+.app ul {
+  align-items: center;
 }
 
 /* profile.html */
