@@ -77,24 +77,24 @@ header {
   /* font-weight: normal; */
   margin: 0;
   padding-left: 10px;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .works section ul {
   list-style-type: none;
   display: flex;
-  padding-left: 0;
+  padding-left: 10px;
 }
 
 .works p {
   margin: 0;
   padding-left:20px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .app img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 
 .app ul {
@@ -108,6 +108,7 @@ header {
   margin-right: auto;
   font-weight: normal;
   color: gray;
+  text-align: center;
 }
 .profile ul{
   width: 400px;
@@ -129,6 +130,7 @@ header {
   margin-right: auto;
   font-weight: normal;
   color: gray;
+  text-align: center;
 }
 .concept p {
   width: 400px;
