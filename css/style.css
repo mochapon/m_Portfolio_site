@@ -155,6 +155,7 @@ header {
 
 .link a {
   text-decoration: none;
+  margin-right: 20px;
 }
 
 /* footer */
