@@ -1,7 +1,7 @@
 body {
-  color: #333;
-  font-family: Verdana, sans-serif;
   margin: 0;
+  font-family: Verdana, sans-serif;
+  color: #333;
 }
 
 /* header */
@@ -12,8 +12,6 @@ header {
 }
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   justify-content: center; /* flexボックス内の配置 */
   align-items: center;
@@ -32,7 +30,7 @@ header {
 
 .info h1 {
   font-weight: normal;
-  font-size: 24px;
+  font-size: 20px;
   margin: 0;
 }
 
@@ -68,43 +66,45 @@ header {
   font-weight: normal;
   font-size: 20px;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .works section ul {
   list-style-type: none;
   display: flex;
   justify-content: center; /* flexボックス内の配置 */
+  padding: 0;
+  margin: 0;
+  align-items: center;
 }
 
 .works section h1 {
   font-weight: normal;
   margin: 0;
   padding-left: 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 
 .works p {
   margin: 0;
   padding-left:10px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .works section img {
-  width: 80px;
-  height: 80px;
-  align-items: center;
+  width: 60px;
+  height: 60px;
+  /* align-items: center; */
 }
 
 /* profile.html */
 .profile h1 {
   margin: 0;
   margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
   font-weight: normal;
+  font-size: 20px;
   color: gray;
   text-align: center;
 }
@@ -126,9 +126,8 @@ header {
 .concept h1 {
   margin: 0;
   margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
   font-weight: normal;
+  font-size: 20px;
   color: gray;
   text-align: center;
 }
