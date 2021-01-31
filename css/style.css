@@ -12,10 +12,10 @@ header {
 }
 
 .container {
-  width: 400px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  justify-content: center; /* flexボックス内の配置 */
   align-items: center;
 }
 
@@ -58,9 +58,8 @@ header {
   height: 20px;
 }
 
-/* index.html */
+/* works */
 .works{
-  width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -73,37 +72,34 @@ header {
   margin-bottom: 50px;
 }
 
-.works section h1 {
-  /* font-weight: normal; */
-  margin: 0;
-  padding-left: 10px;
-  font-size: 20px;
-}
-
 .works section ul {
   list-style-type: none;
   display: flex;
-  padding-left: 10px;
+  justify-content: center; /* flexボックス内の配置 */
 }
+
+.works section h1 {
+  font-weight: normal;
+  margin: 0;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
 
 .works p {
   margin: 0;
-  padding-left:20px;
+  padding-left:10px;
   font-size: 14px;
 }
 
-.app img {
+.works section img {
   width: 80px;
   height: 80px;
-}
-
-.app ul {
   align-items: center;
 }
 
 /* profile.html */
 .profile h1 {
-  width: 400px;
   margin: 0;
   margin-top: 30px;
   margin-left: auto;
@@ -113,9 +109,10 @@ header {
   text-align: center;
 }
 .profile ul{
-  width: 400px;
   margin-left: auto;
   margin-right: auto;
+  display: table;
+  text-align: left; /* 左揃え */
 }
 
 .profile li {
@@ -127,7 +124,6 @@ header {
 
 /* concept.html */
 .concept h1 {
-  width: 400px;
   margin: 0;
   margin-top: 30px;
   margin-left: auto;
@@ -137,17 +133,19 @@ header {
   text-align: center;
 }
 .concept p {
-  width: 400px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 36px;
+  padding: 0;
+  padding-left: 60px;
+  padding-right: 60px;
   font-size: 12px;
   color: #444;
+  display: table;
+  text-align: left; /* 左揃え */
 }
 
 /* link */
 .link {
-  width: 400px;
   margin: 60px auto 0px;
   font-size: 12px;
   text-align: center;
@@ -155,7 +153,6 @@ header {
 
 .link a {
   text-decoration: none;
-  margin-right: 20px;
 }
 
 /* footer */
