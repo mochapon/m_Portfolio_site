@@ -13,8 +13,8 @@ header {
   background-color: #efefef;
   margin: 0;
   padding: 0;
-  /* padding-top: 20px;
-  padding-bottom: 20px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .container {
@@ -28,13 +28,11 @@ header {
   border-width: 4px;
   border-style: solid;
   border-color: white;
-  margin: 0;
-  margin: 20px;
 }
 
 .info {
-  width: 210px;
-  /* margin-left: 20px; */
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .info h1 {
